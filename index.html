@@ -1,0 +1,40 @@
+<!--/*
+* Game: ViliV
+* Author: Cleber Vilela
+* Author URL: https://viliv.dev/
+* Version: 1.0.0
+*/-->
+
+<!DOCTYPE html>
+<html lang="en" style="" class="sonic js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<title>Sonic Runners</title>
+		<meta name="author" content="ViliV" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body translate="no">
+	<div id="container">
+		<div>
+			<p><b>[  SONIC RUNNERS  ]</b></b></p>
+		</div>
+	<script src="js/render.js"></script>
+	<script src="js/game.js"></script>
+	</div>
+	<div class="controlls">
+		<p><b>[__< ^ >__] [__W A D__] [__SPACEBAR__]</b></b></p>
+	</div>
+	<div>
+		<p><b>SOUND</b></p>
+		<audio id="gameAudio">
+		<source src="sound/song.mp3" type="audio/mpeg">
+		</audio>
+		<button onclick="playAudio()" type="button">- ON -</button>
+		<button onclick="pauseAudio()" type="button">-OFF-</button> 
+		<script src="js/sound.js"></script>
+	</div>
+	</body>
+	
+</html>
